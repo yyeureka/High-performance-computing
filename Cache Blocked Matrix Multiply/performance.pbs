@@ -1,0 +1,17 @@
+#Example performance submission script for lab0
+#PBS -N lab0
+#PBS -l nodes=1:ppn=1:core24
+#PBS -l walltime=00:20:00
+#PBS -q coc-ice
+#PBS -j oe
+#PBS -o job.$PBS_JOBID.out
+#PBS -e job.$PBS_JOBID.err
+
+#Setup Environment
+source /storage/home/hcocice1/abecker32/custom/gcc-core.sh
+
+cd $PBS_O_WORKDIR
+
+make clean mm
+
+./mm 2048 2048 2048

@@ -1,0 +1,6 @@
+NAME:test3
+BINARY:mm
+POINTVAL:8
+TYPE:compare
+INPUT:64 64 64
+COMPARE_EXCLUDE:time for|Speedup

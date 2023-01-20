@@ -1,0 +1,12 @@
+9cfd13c6a879cd19ac758a54de3a3edb  Makefile
+4e36d290d1533210fbc8941bbded44da  mm_grader.sh
+9547bb4561580a3efdee68dbb6266569  utils/mm_utils.c
+921e24575e4885c8b0135654b391844d  utils/timer_cse6220.c
+a717d37ce66e303b5d250b311d1b39a5  utils/timer_cse6220.h
+f63122d3419ee9f26806b82df8086993  autograder/master.config
+5efdccf42045aff97db6d224f52d7fb2  autograder/test1.test
+c59a4a69e6cdeb786bfd13ee63124f5a  autograder/test2.test
+92400803fee644b8fb9f135a0b63ee2c  autograder/test3.test
+5f248b90b983d3c348bbf7f92404fed5  autograder/test3.test.ref
+e62cd9f3046bb7032e37a14992d13dae  autograder/test4.test
+014466bc85c1d2b00f1e6f3441d238cb  autograder/test5.test

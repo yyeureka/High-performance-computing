@@ -1,0 +1,6 @@
+NAME:test1
+BINARY:mm
+POINTVAL:8
+TYPE:internal
+INPUT:4 4 4
+OUTPUT:
