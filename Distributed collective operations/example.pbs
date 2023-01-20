@@ -1,0 +1,19 @@
+#Example submission script for lab2
+#PBS -N lab2_multi
+#PBS -l nodes=1:ppn=2:core24+1:ppn=2:core24+1:ppn=2:core24+1:ppn=2:core24
+#PBS -l walltime=00:10:00
+#PBS -q coc-ice-multi
+#PBS -j oe
+#PBS -o job.$PBS_JOBID.out
+#PBS -e job.$PBS_JOBID.err
+
+#Setup Environment
+cd $PBS_O_WORKDIR
+source pace_env.sh
+
+mkdir -p results 2>/dev/null
+
+#PACE handles the number of threads for you (no need for -np #)
+python3 ./speedtest.py > results/speedtest.tsv
+
+exit 0
